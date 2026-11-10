@@ -31,7 +31,7 @@ v1.0 将画布重建延后到窗口尺寸稳定时，减少拖动窗口时闪烁
 
 ## 方式一：Windows 一键安装
 
-Windows 用户可以下载[一键安装工具](https://github.com/Flying1303/-dsh-deepseek-theme/releases/download/v1.0/DeepSeek-Harness-Theme-v1.0-Windows-Installer.zip)，解压后双击 `Install-Theme.cmd`。按工具提示完成后，即可打开 Harness 使用皮肤。
+Windows 用户可以下载[一键安装工具](https://github.com/Flying1303/deepseek-harness-theme/releases/download/v1.0/DeepSeek-Harness-Theme-v1.0-Windows-Installer.zip)，解压后双击 `Install-Theme.cmd`。按工具提示完成后，即可打开 Harness 使用皮肤。
 
 ## 方式二：手动安装
 

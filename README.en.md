@@ -31,7 +31,7 @@ The light palette builds on the original Web theme by 爱玩蛛的少年 and was
 
 ## Option 1 — One-click installation on Windows
 
-On Windows, download the [one-click installer](https://github.com/Flying1303/-dsh-deepseek-theme/releases/download/v1.0/DeepSeek-Harness-Theme-v1.0-Windows-Installer.zip), extract it, and double-click `Install-Theme.cmd`. Follow the tool's prompts, then open Harness to use the theme.
+On Windows, download the [one-click installer](https://github.com/Flying1303/deepseek-harness-theme/releases/download/v1.0/DeepSeek-Harness-Theme-v1.0-Windows-Installer.zip), extract it, and double-click `Install-Theme.cmd`. Follow the tool's prompts, then open Harness to use the theme.
 
 ## Option 2 — Manual installation
 
