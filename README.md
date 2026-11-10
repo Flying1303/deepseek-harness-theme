@@ -14,7 +14,7 @@ v1.0 将画布重建延后到窗口尺寸稳定时，减少拖动窗口时闪烁
 
 ### 浅色主题
 
-浅色配色基于爱玩蛛的少年的原版 Web 皮肤，由 Codex 使用 GPT-6.1 Sol（轻度）制作。
+浅色主题基于「爱玩蛛的少年」分享的原版 Web 皮肤制作。
 
 ![DeepSeek Harness 桌面端浅色主题](./images/theme-light.png)
 
@@ -22,6 +22,7 @@ v1.0 将画布重建延后到窗口尺寸稳定时，减少拖动窗口时闪烁
 
 - **原版 Web 皮肤作者** [爱玩蛛的少年](https://space.bilibili.com/564770445)（B 站 UID 564770445）
 - **桌面端与浅色主题适配** [我不是Flying（B 站）](https://space.bilibili.com/1350238334) / [Flying1303 (GitHub)](https://github.com/Flying1303)
+- **制作工具与模型** 由 Codex 制作，使用 GPT-6.1 Sol（轻度）。
 
 - 原版 Web 皮肤由 B 站 UP 主 [@爱玩蛛的少年](https://space.bilibili.com/564770445) 分享。感谢原作者！[原版演示与下载入口](https://www.bilibili.com/video/BV1fVbi63ETW/)
 - 视觉灵感来自 DeepSeek Harness 的旧版官方发布页。现行[官方产品页](https://www.deepseek.com/harness/)和[启动说明](https://github.com/deepseek-ai/deepseek-harness#run)可供参考。

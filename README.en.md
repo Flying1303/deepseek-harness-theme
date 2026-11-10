@@ -14,7 +14,7 @@ Version 1.0 keeps the last rendered background frame while the window is being r
 
 ### Light theme
 
-The light palette builds on the original Web theme by 爱玩蛛的少年 and was made with Codex using GPT-6.1 Sol (low reasoning effort).
+The light theme builds on the original Web theme by 爱玩蛛的少年.
 
 ![DeepSeek Harness Desktop in light mode](./images/theme-light.png)
 
@@ -22,6 +22,7 @@ The light palette builds on the original Web theme by 爱玩蛛的少年 and was
 
 - **Original Web theme** [爱玩蛛的少年](https://space.bilibili.com/564770445) (Bilibili UID 564770445)
 - **Desktop and light-theme adaptation** [我不是Flying (Bilibili)](https://space.bilibili.com/1350238334) / [Flying1303 (GitHub)](https://github.com/Flying1303)
+- **Made with** Codex using GPT-6.1 Sol (low reasoning effort).
 
 - Thanks to Bilibili creator [@爱玩蛛的少年](https://space.bilibili.com/564770445) for sharing the original Web theme. [Original demo and download links](https://www.bilibili.com/video/BV1fVbi63ETW/)
 - The visual design is inspired by the original official DeepSeek Harness launch page. See the [current official product page](https://www.deepseek.com/harness/) and the [startup guide](https://github.com/deepseek-ai/deepseek-harness#run) for current information.
