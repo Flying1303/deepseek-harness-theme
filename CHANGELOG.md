@@ -18,6 +18,9 @@ Release dates use **(UTC+08:00) Beijing, Chongqing, Hong Kong SAR, Urumqi**.
 - Updated the in-app credits for the original author, adaptation, and Codex. The English one-click and manual packages both include English plugin details.
 
 
+- 英文包的插件简介和详情固定使用英文，包括 DSH 界面设为中文时。
+- The English packages display English plugin descriptions and details even when the DSH interface is set to Chinese.
+
 ## v1.0 · 2026-11-10
 
 - 首次公开发布。包含桌面端适配、浅色与深色主题、粒子鲸鱼居中，以及窗口缩放优化。拖动窗口时保留上一帧，待尺寸稳定后再重建背景画布，以减少闪烁。
