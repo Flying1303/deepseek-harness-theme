@@ -7,6 +7,9 @@
 
 - DSH 插件管理中的显示名称统一为 `deepseek-harness-theme`，与 GitHub 仓库名一致。
 - The plugin now displays as `deepseek-harness-theme` in the DSH plugin manager, matching the GitHub repository name.
+- Windows 一键安装工具现提供独立的简体中文和英文 ZIP。英文版包含英文安装提示、错误信息和使用说明，两版内置同一个插件。
+- The Windows one-click installer is now available in separate Simplified Chinese and English ZIPs. The English edition includes localized prompts, errors, and instructions. Both editions bundle the same plugin.
+
 
 ## v1.0
 
