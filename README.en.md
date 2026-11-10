@@ -6,8 +6,6 @@
 
 A community theme for DeepSeek Harness with animated aurora, an interactive constellation grid, a centered particle whale, and frosted glass surfaces. The theme follows Harness's light and dark appearance settings. All assets are bundled.
 
-Version 1.0 keeps the last rendered background frame while the window is being resized and redraws it once the window size settles.
-
 ## Screenshots
 
 ### Dark theme
@@ -28,7 +26,7 @@ The light theme builds on the original Web theme by 爱玩蛛的少年.
 
 - Thanks to Bilibili creator [@爱玩蛛的少年](https://space.bilibili.com/564770445) for sharing the original Web theme. [Original demo and download links](https://www.bilibili.com/video/BV1fVbi63ETW/)
 - The visual design is inspired by the original official DeepSeek Harness launch page. See the [current official product page](https://www.deepseek.com/harness/) and the [startup guide](https://github.com/deepseek-ai/deepseek-harness#run) for current information.
-- This community adaptation adds desktop support, a light theme, conversation-area centering, and the resize fix. The original theme's package manifest declares MIT.
+- This community adaptation adds desktop support, a light theme, and conversation-area centering. The original theme's package manifest declares MIT.
 
 **Choose either installation method.**
 

@@ -7,5 +7,5 @@
 
 ## v1.0
 
-- 首次公开发布。包含桌面端适配、浅色与深色主题、粒子鲸鱼居中，以及窗口缩放重绘优化。
-- Initial public release with desktop adaptation, light and dark themes, a centered particle whale, and resize redraw improvements.
+- 首次公开发布。包含桌面端适配、浅色与深色主题、粒子鲸鱼居中，以及窗口缩放优化。拖动窗口时保留上一帧，待尺寸稳定后再重建背景画布，以减少闪烁。
+- Initial public release with desktop adaptation, light and dark themes, a centered particle whale, and smoother resizing. The background keeps its last rendered frame during resizing and rebuilds the canvas once the window size settles to reduce flicker.
