@@ -26,11 +26,15 @@ If an older copy of this plugin is installed, uninstall it before installing the
 
 ### Windows command-line installation
 
-Launch Harness Desktop once to initialize its profile, then quit it completely. Replace both paths in the example with the paths on your computer.
+Launch Harness Desktop once to initialize its profile, then quit it completely. Replace both placeholders before running the PowerShell command.
 
 ```powershell
-& 'C:\Path\To\DeepSeek Harness\resources\runtime\cli\bin\dsh.cmd' plugin --profile desktop add 'C:\Path\To\dsh-client-ui-deepseek-bg-1.0.0.tgz'
+& '<DEEPSEEK_HARNESS_INSTALL_DIR>\resources\runtime\cli\bin\dsh.cmd' plugin --profile desktop add '<PLUGIN_ARCHIVE_FULL_PATH>'
 ```
+
+- Replace `<DEEPSEEK_HARNESS_INSTALL_DIR>` with the folder containing `DeepSeek Harness.exe`. Keep the trailing `\resources\runtime\cli\bin\dsh.cmd`.
+- Replace `<PLUGIN_ARCHIVE_FULL_PATH>` with the full path to your downloaded `dsh-client-ui-deepseek-bg-1.0.0.tgz`.
+- Remove the angle brackets and keep the single quotes.
 
 Reopen DeepSeek Harness after installation.
 

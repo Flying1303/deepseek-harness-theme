@@ -18,7 +18,7 @@ v1.0 将画布重建延后到窗口尺寸稳定时，减少拖动窗口时闪烁
 ## 官方桌面端
 
 1. 将 [dsh-client-ui-deepseek-bg-1.0.0.tgz](./dsh-client-ui-deepseek-bg-1.0.0.tgz) 下载到本地。无需解压。
-2. 打开 DeepSeek Harness，进入左侧「插件 → 添加插件」，粘贴该文件的完整路径，例如 `C:\Users\你的用户名\Downloads\dsh-client-ui-deepseek-bg-1.0.0.tgz`。
+2. 打开 DeepSeek Harness，进入左侧「插件 → 添加插件」，粘贴该文件的完整路径。
 3. 安装后点击「立即启用」。如果界面提示重启，完全退出再打开应用。
 4. 进入「设置 → 通用设置 → 外观」，选择浅色、深色或跟随系统。
 
@@ -26,11 +26,15 @@ v1.0 将画布重建延后到窗口尺寸稳定时，减少拖动窗口时闪烁
 
 ### Windows 桌面端命令行安装
 
-先启动过一次桌面端以初始化配置，随后完全退出桌面端。PowerShell 示例，将两个路径替换为实际路径：
+先启动一次桌面端以初始化配置，随后完全退出。在 PowerShell 中运行下面的命令，先替换两个占位符。
 
 ```powershell
-& 'H:\Programs\DeepSeek Harness\resources\runtime\cli\bin\dsh.cmd' plugin --profile desktop add 'C:\Users\你的用户名\Downloads\dsh-client-ui-deepseek-bg-1.0.0.tgz'
+& '<DEEPSEEK_HARNESS_INSTALL_DIR>\resources\runtime\cli\bin\dsh.cmd' plugin --profile desktop add '<PLUGIN_ARCHIVE_FULL_PATH>'
 ```
+
+- `<DEEPSEEK_HARNESS_INSTALL_DIR>` 替换为包含 `DeepSeek Harness.exe` 的安装目录，保留其后的 `\resources\runtime\cli\bin\dsh.cmd`。
+- `<PLUGIN_ARCHIVE_FULL_PATH>` 替换为下载的 `dsh-client-ui-deepseek-bg-1.0.0.tgz` 的完整文件路径。
+- 替换时去掉尖括号，保留两边的单引号。
 
 安装完成后重新打开 DeepSeek Harness。命令行用的是桌面安装目录自带的 dsh。
 
