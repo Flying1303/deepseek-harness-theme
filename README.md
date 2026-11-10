@@ -1,4 +1,4 @@
-# DeepSeek Harness 官网风格皮肤 v1.0
+# DeepSeek Harness 官网风格皮肤 v1.0.1
 
 简体中文 | [English](./README.en.md)
 
@@ -8,14 +8,17 @@ v1.0 将画布重建延后到窗口尺寸稳定时，减少拖动窗口时闪烁
 
 ## 来源与致谢
 
+- **原版 Web 皮肤作者** [爱玩蛛的少年](https://space.bilibili.com/564770445)（B 站 UID 564770445）
+- **桌面端与双主题适配** [Flying1303](https://github.com/Flying1303)
+
 - 原版 Web 皮肤由 B 站 UP 主 [@爱玩蛛的少年](https://space.bilibili.com/564770445) 分享。感谢原作者！[原版演示与下载入口](https://www.bilibili.com/video/BV1fVbi63ETW/)
 - 视觉来源为 [DeepSeek Harness 官方产品页](https://www.deepseek.com/harness/)。官方 Web UI 的启动方式见 [DeepSeek Harness 官方仓库](https://github.com/deepseek-ai/deepseek-harness#run)。
 - 此仓库提供社区适配版，包含桌面端支持、浅色主题、会话区居中和缩放重绘修复。原皮肤包的清单标注 MIT。
 
 ## 官方桌面端
 
-1. 将 [dsh-client-ui-deepseek-bg-1.0.0.tgz](./dsh-client-ui-deepseek-bg-1.0.0.tgz) 下载到本地。无需解压。
-2. 打开 DeepSeek Harness，进入左侧「插件 → 添加插件」，粘贴该文件的完整路径，例如 `C:\Users\你的用户名\Downloads\dsh-client-ui-deepseek-bg-1.0.0.tgz`。
+1. 将 [dsh-client-ui-deepseek-bg-1.0.1.tgz](./dsh-client-ui-deepseek-bg-1.0.1.tgz) 下载到本地。无需解压。
+2. 打开 DeepSeek Harness，进入左侧「插件 → 添加插件」，粘贴该文件的完整路径，例如 `C:\Users\你的用户名\Downloads\dsh-client-ui-deepseek-bg-1.0.1.tgz`。
 3. 安装后点击「立即启用」。如果界面提示重启，完全退出再打开应用。
 4. 进入「设置 → 通用设置 → 外观」，选择浅色、深色或跟随系统。
 
@@ -26,7 +29,7 @@ v1.0 将画布重建延后到窗口尺寸稳定时，减少拖动窗口时闪烁
 先启动过一次桌面端以初始化配置，随后完全退出桌面端。PowerShell 示例，将两个路径替换为实际路径：
 
 ```powershell
-& 'H:\Programs\DeepSeek Harness\resources\runtime\cli\bin\dsh.cmd' plugin --profile desktop add 'C:\Users\你的用户名\Downloads\dsh-client-ui-deepseek-bg-1.0.0.tgz'
+& 'H:\Programs\DeepSeek Harness\resources\runtime\cli\bin\dsh.cmd' plugin --profile desktop add 'C:\Users\你的用户名\Downloads\dsh-client-ui-deepseek-bg-1.0.1.tgz'
 ```
 
 安装完成后重新打开 DeepSeek Harness。命令行用的是桌面安装目录自带的 dsh。
@@ -36,7 +39,7 @@ v1.0 将画布重建延后到窗口尺寸稳定时，减少拖动窗口时闪烁
 在有 Web 插件管理器的版本上，可使用相同的本地包路径安装并启用。若 Web Host 部署在另一台机器上，路径必须在 Host 那台机器上可访问。也可在 Host 上使用该 Web 安装的 CLI：
 
 ```sh
-dsh plugin --profile web add /absolute/path/dsh-client-ui-deepseek-bg-1.0.0.tgz
+dsh plugin --profile web add /absolute/path/dsh-client-ui-deepseek-bg-1.0.1.tgz
 ```
 
 重启 Web Host 并刷新页面。
