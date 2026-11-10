@@ -1,8 +1,8 @@
 # 更新日志 / Changelog
 
-发布日期采用中国标准时间（UTC+8，乌鲁木齐市区）。
+发布日期时区为 **(UTC+08:00) 北京，重庆，香港特别行政区，乌鲁木齐**。
 
-Release dates use China Standard Time (UTC+8, Ürümqi).
+Release dates use **(UTC+08:00) Beijing, Chongqing, Hong Kong SAR, Urumqi**.
 
 ## v1.0.1 · 2026-11-10
 
