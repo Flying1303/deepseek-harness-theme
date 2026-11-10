@@ -32,7 +32,20 @@ The light theme builds on the original Web theme by 爱玩蛛的少年.
 
 ## Option 1 — One-click installation on Windows
 
-On Windows, download the [one-click installer](https://github.com/Flying1303/deepseek-harness-theme/releases/download/v1.0/DeepSeek-Harness-Theme-v1.0-Windows-Installer.zip), extract it, and double-click `Install-Theme.cmd`. Follow the tool's prompts, then open Harness to use the theme.
+Use this option with the official Windows desktop client that includes `dsh.cmd`. The ZIP contains the v1.0 plugin package and can be used offline after download.
+
+### Installation steps
+
+1. **Initialize Harness**: If this is your first time using DeepSeek Harness, open it, finish the initial setup, and reach the main window to initialize your desktop profile.
+2. **Download and extract**: [Download the Windows installer ZIP](https://github.com/Flying1303/deepseek-harness-theme/releases/download/v1.0/DeepSeek-Harness-Theme-v1.0-Windows-Installer.zip) and choose **Extract All**. Keep `Install-Theme.cmd`, `install.ps1`, and `dsh-client-ui-deepseek-bg-1.0.0.tgz` in the same folder.
+3. **Quit Harness**: If it is running, select **Application → Quit**. If the installer is already waiting for Harness to exit, return to the installer window and press Enter after quitting.
+4. **Run the installer**: Double-click `Install-Theme.cmd` in the extracted folder. The tool verifies the bundled package, locates Harness, and installs the plugin into your desktop profile. If prompted for an installation directory, paste the **folder containing `DeepSeek Harness.exe`** and press Enter.
+5. **Verify the installation**: After installation succeeds, the tool attempts to open Harness. Open it manually if the window does not appear. Under **Plugins**, confirm that `dsh-client-ui-deepseek-bg` is enabled, then choose **Light**, **Dark**, or **System** under **Settings → General → Appearance**.
+
+### Reinstall or uninstall
+
+- **Replace an existing copy**: Run the tool again to replace a plugin with the same name using the bundled v1.0 package and enable it.
+- **Restore the default appearance**: Disable or uninstall `dsh-client-ui-deepseek-bg` under **Plugins**. If the theme remains visible, quit and reopen Harness.
 
 ## Option 2 — Manual installation
 

@@ -32,7 +32,20 @@ v1.0 将画布重建延后到窗口尺寸稳定时，减少拖动窗口时闪烁
 
 ## 方式一：Windows 一键安装
 
-Windows 用户可以下载[一键安装工具](https://github.com/Flying1303/deepseek-harness-theme/releases/download/v1.0/DeepSeek-Harness-Theme-v1.0-Windows-Installer.zip)，解压后双击 `Install-Theme.cmd`。按工具提示完成后，即可打开 Harness 使用皮肤。
+适用于自带 `dsh.cmd` 的 DeepSeek Harness 官方 Windows 桌面端。ZIP 已内置 v1.0 插件包，下载后可以离线安装。
+
+### 安装步骤
+
+1. **首次使用 Harness**：先打开 DeepSeek Harness，完成初次设置并进入主界面，生成桌面端配置。
+2. **下载并解压**：[下载 Windows 一键安装 ZIP](https://github.com/Flying1303/deepseek-harness-theme/releases/download/v1.0/DeepSeek-Harness-Theme-v1.0-Windows-Installer.zip)，右键选择「全部解压缩」。保持 `Install-Theme.cmd`、`install.ps1` 和 `dsh-client-ui-deepseek-bg-1.0.0.tgz` 在同一文件夹中。
+3. **退出 Harness**：如果应用还在运行，从左上角选择「应用 → 退出」。如果已经打开安装工具并看到退出提示，退出 Harness 后回到安装窗口按 Enter。
+4. **运行工具**：在解压后的文件夹里双击 `Install-Theme.cmd`。工具会校验内置插件包、查找 Harness 的安装位置，并将插件安装到当前用户的桌面配置中。如果工具找不到 Harness，按提示粘贴**包含 `DeepSeek Harness.exe` 的文件夹路径**，然后按 Enter。
+5. **确认安装**：看到「安装成功」后，工具会尝试打开 Harness。如果窗口没有出现，可以手动打开。进入左侧「插件」，确认 `dsh-client-ui-deepseek-bg` 已启用，然后在「设置 → 通用设置 → 外观」选择浅色、深色或跟随系统。
+
+### 重装与卸载
+
+- **覆盖同名插件**：重新运行工具即可。工具会使用内置的 v1.0 包覆盖安装并启用插件。
+- **恢复原版外观**：在左侧「插件」中关闭或卸载 `dsh-client-ui-deepseek-bg`。如果界面仍显示主题，完全退出再重新打开 Harness。
 
 ## 方式二：手动安装
 
