@@ -6,13 +6,25 @@
 
 v1.0 将画布重建延后到窗口尺寸稳定时，减少拖动窗口时闪烁。
 
+## 效果预览
+
+### 深色主题
+
+![DeepSeek Harness 桌面端深色主题](./images/theme-dark.png)
+
+### 浅色主题
+
+浅色配色基于爱玩蛛的少年的原版 Web 皮肤，由 Codex 使用 GPT-6.1 Sol（轻度）制作。
+
+![DeepSeek Harness 桌面端浅色主题](./images/theme-light.png)
+
 ## 来源与致谢
 
 - **原版 Web 皮肤作者** [爱玩蛛的少年](https://space.bilibili.com/564770445)（B 站 UID 564770445）
 - **桌面端与双主题适配** [Flying1303](https://github.com/Flying1303)
 
 - 原版 Web 皮肤由 B 站 UP 主 [@爱玩蛛的少年](https://space.bilibili.com/564770445) 分享。感谢原作者！[原版演示与下载入口](https://www.bilibili.com/video/BV1fVbi63ETW/)
-- 视觉灵感来自 DeepSeek Harness 的旧版官方启动页。现行[官方产品页](https://www.deepseek.com/harness/)和[启动说明](https://github.com/deepseek-ai/deepseek-harness#run)可供参考。
+- 视觉灵感来自 DeepSeek Harness 的旧版官方发布页。现行[官方产品页](https://www.deepseek.com/harness/)和[启动说明](https://github.com/deepseek-ai/deepseek-harness#run)可供参考。
 - 此仓库提供社区适配版，包含桌面端支持、浅色主题、会话区居中和缩放重绘修复。原皮肤包的清单标注 MIT。
 
 **以下两种安装方式任选一种。**
