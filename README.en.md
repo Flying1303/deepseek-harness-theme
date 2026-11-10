@@ -37,9 +37,9 @@ Use this option with the official Windows desktop client that includes `dsh.cmd`
 ### Installation steps
 
 1. **Initialize Harness**: If this is your first time using DeepSeek Harness, open it, finish the initial setup, and reach the main window to initialize your desktop profile.
-2. **Download and extract**: [Download the Windows installer ZIP](https://github.com/Flying1303/deepseek-harness-theme/releases/download/v1.0.1/DeepSeek-Harness-Theme-v1.0.1-Windows-Installer.zip) and choose **Extract All**. Keep `Install-Theme.cmd`, `install.ps1`, and `dsh-client-ui-deepseek-bg-1.0.1.tgz` in the same folder.
+2. **Download and extract**: Download the [English ZIP](https://github.com/Flying1303/deepseek-harness-theme/releases/download/v1.0.1/DeepSeek-Harness-Theme-v1.0.1-Windows-Installer-EN.zip) or the [Simplified Chinese ZIP](https://github.com/Flying1303/deepseek-harness-theme/releases/download/v1.0.1/DeepSeek-Harness-Theme-v1.0.1-Windows-Installer.zip) and choose **Extract All**. Keep the included `.cmd` launcher, `install.ps1`, and `dsh-client-ui-deepseek-bg-1.0.1.tgz` in the same folder.
 3. **Quit Harness**: If it is running, select **Application → Quit**. If the installer is already waiting for Harness to exit, return to the installer window and press Enter after quitting.
-4. **Run the installer**: Double-click `Install-Theme.cmd` in the extracted folder. The tool verifies the bundled package, locates Harness, and installs the plugin into your desktop profile. If prompted for an installation directory, paste the **folder containing `DeepSeek Harness.exe`** and press Enter.
+4. **Run the installer**: Double-click `Install-Theme-EN.cmd` for English or `Install-Theme.cmd` for Simplified Chinese in the extracted folder. The tool verifies the bundled package, locates Harness, and installs the plugin into your desktop profile. If prompted for an installation directory, paste the **folder containing `DeepSeek Harness.exe`** and press Enter.
 5. **Verify the installation**: After installation succeeds, the tool attempts to open Harness. Open it manually if the window does not appear. Under **Plugins**, confirm that `dsh-client-ui-deepseek-bg` is enabled, then choose **Light**, **Dark**, or **System** under **Settings → General → Appearance**.
 
 ### Reinstall or uninstall
