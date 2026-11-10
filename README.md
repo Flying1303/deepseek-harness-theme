@@ -1,4 +1,4 @@
-# DeepSeek Harness 官网风格皮肤 v1.0.1
+# DeepSeek Harness 官网风格皮肤 v1.0
 
 简体中文 | [English](./README.en.md)
 
@@ -17,8 +17,8 @@ v1.0 将画布重建延后到窗口尺寸稳定时，减少拖动窗口时闪烁
 
 ## 官方桌面端
 
-1. 将 [dsh-client-ui-deepseek-bg-1.0.1.tgz](./dsh-client-ui-deepseek-bg-1.0.1.tgz) 下载到本地。无需解压。
-2. 打开 DeepSeek Harness，进入左侧「插件 → 添加插件」，粘贴该文件的完整路径，例如 `C:\Users\你的用户名\Downloads\dsh-client-ui-deepseek-bg-1.0.1.tgz`。
+1. 将 [dsh-client-ui-deepseek-bg-1.0.0.tgz](./dsh-client-ui-deepseek-bg-1.0.0.tgz) 下载到本地。无需解压。
+2. 打开 DeepSeek Harness，进入左侧「插件 → 添加插件」，粘贴该文件的完整路径，例如 `C:\Users\你的用户名\Downloads\dsh-client-ui-deepseek-bg-1.0.0.tgz`。
 3. 安装后点击「立即启用」。如果界面提示重启，完全退出再打开应用。
 4. 进入「设置 → 通用设置 → 外观」，选择浅色、深色或跟随系统。
 
@@ -29,7 +29,7 @@ v1.0 将画布重建延后到窗口尺寸稳定时，减少拖动窗口时闪烁
 先启动过一次桌面端以初始化配置，随后完全退出桌面端。PowerShell 示例，将两个路径替换为实际路径：
 
 ```powershell
-& 'H:\Programs\DeepSeek Harness\resources\runtime\cli\bin\dsh.cmd' plugin --profile desktop add 'C:\Users\你的用户名\Downloads\dsh-client-ui-deepseek-bg-1.0.1.tgz'
+& 'H:\Programs\DeepSeek Harness\resources\runtime\cli\bin\dsh.cmd' plugin --profile desktop add 'C:\Users\你的用户名\Downloads\dsh-client-ui-deepseek-bg-1.0.0.tgz'
 ```
 
 安装完成后重新打开 DeepSeek Harness。命令行用的是桌面安装目录自带的 dsh。
@@ -39,7 +39,7 @@ v1.0 将画布重建延后到窗口尺寸稳定时，减少拖动窗口时闪烁
 在有 Web 插件管理器的版本上，可使用相同的本地包路径安装并启用。若 Web Host 部署在另一台机器上，路径必须在 Host 那台机器上可访问。也可在 Host 上使用该 Web 安装的 CLI：
 
 ```sh
-dsh plugin --profile web add /absolute/path/dsh-client-ui-deepseek-bg-1.0.1.tgz
+dsh plugin --profile web add /absolute/path/dsh-client-ui-deepseek-bg-1.0.0.tgz
 ```
 
 重启 Web Host 并刷新页面。
