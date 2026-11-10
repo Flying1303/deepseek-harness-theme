@@ -21,7 +21,7 @@ The light palette builds on the original Web theme by 爱玩蛛的少年 and was
 ## Credits and upstream
 
 - **Original Web theme** [爱玩蛛的少年](https://space.bilibili.com/564770445) (Bilibili UID 564770445)
-- **Desktop and dual-theme adaptation** [Flying1303](https://github.com/Flying1303)
+- **Desktop and light-theme adaptation** [我不是Flying (Bilibili)](https://space.bilibili.com/1350238334) / [Flying1303 (GitHub)](https://github.com/Flying1303)
 
 - Thanks to Bilibili creator [@爱玩蛛的少年](https://space.bilibili.com/564770445) for sharing the original Web theme. [Original demo and download links](https://www.bilibili.com/video/BV1fVbi63ETW/)
 - The visual design is inspired by the original official DeepSeek Harness launch page. See the [current official product page](https://www.deepseek.com/harness/) and the [startup guide](https://github.com/deepseek-ai/deepseek-harness#run) for current information.
