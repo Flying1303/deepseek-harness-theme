@@ -17,6 +17,8 @@ v1.0 将画布重建延后到窗口尺寸稳定时，减少拖动窗口时闪烁
 
 ## 官方桌面端
 
+Windows 用户可以下载[一键安装工具](https://github.com/Flying1303/-dsh-deepseek-theme/releases/download/v1.0/DeepSeek-Harness-Theme-v1.0-Windows-Installer.zip)，解压后双击 `Install-Theme.cmd`。
+
 1. 将 [dsh-client-ui-deepseek-bg-1.0.0.tgz](./dsh-client-ui-deepseek-bg-1.0.0.tgz) 下载到本地。无需解压。
 2. 打开 DeepSeek Harness，进入左侧「插件 → 添加插件」，粘贴该文件的完整路径。
 3. 安装后点击「立即启用」。如果界面提示重启，完全退出再打开应用。

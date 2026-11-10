@@ -17,6 +17,8 @@ Version 1.0 keeps the last rendered background frame while the window is being r
 
 ## Install on DeepSeek Harness Desktop
 
+On Windows, download the [one-click installer](https://github.com/Flying1303/-dsh-deepseek-theme/releases/download/v1.0/DeepSeek-Harness-Theme-v1.0-Windows-Installer.zip), extract it, and double-click `Install-Theme.cmd`.
+
 1. Download [dsh-client-ui-deepseek-bg-1.0.0.tgz](./dsh-client-ui-deepseek-bg-1.0.0.tgz). Keep the archive intact.
 2. Open Harness and go to **Plugins → Add plugin**. Paste the absolute path to the downloaded file.
 3. Install it and select **Enable now**. If prompted, quit and reopen Harness.
