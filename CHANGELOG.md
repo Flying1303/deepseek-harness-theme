@@ -1,5 +1,9 @@
 # 更新日志 / Changelog
 
+发布日期采用中国标准时间（UTC+8，乌鲁木齐市区）。
+
+Release dates use China Standard Time (UTC+8, Ürümqi).
+
 ## v1.0.1 · 2026-11-10
 
 - 修复已发送消息气泡四周露出方角的问题。磨砂样式现在直接作用在消息气泡上，沿用 Harness 自带的圆角。
@@ -11,7 +15,7 @@
 - The Windows one-click installer is now available in separate Simplified Chinese and English ZIPs. The English edition includes localized prompts, errors, and instructions. Both editions bundle the same plugin.
 
 
-## v1.0 · 2026-11-09
+## v1.0 · 2026-11-10
 
 - 首次公开发布。包含桌面端适配、浅色与深色主题、粒子鲸鱼居中，以及窗口缩放优化。拖动窗口时保留上一帧，待尺寸稳定后再重建背景画布，以减少闪烁。
 - Initial public release with desktop adaptation, light and dark themes, a centered particle whale, and smoother resizing. The background keeps its last rendered frame during resizing and rebuilds the canvas once the window size settles to reduce flicker.
