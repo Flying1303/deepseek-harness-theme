@@ -15,9 +15,15 @@ Version 1.0 keeps the last rendered background frame while the window is being r
 - The visual design is inspired by the original DeepSeek Harness launch page. See the [current official product page](https://www.deepseek.com/harness/) and the [startup guide](https://github.com/deepseek-ai/deepseek-harness#run) for current information.
 - This community adaptation adds desktop support, a light theme, conversation-area centering, and the resize fix. The original theme's package manifest declares MIT.
 
-## Install on DeepSeek Harness Desktop
+**Choose either installation method.**
 
-On Windows, download the [one-click installer](https://github.com/Flying1303/-dsh-deepseek-theme/releases/download/v1.0/DeepSeek-Harness-Theme-v1.0-Windows-Installer.zip), extract it, and double-click `Install-Theme.cmd`.
+## Option 1 — One-click installation on Windows
+
+On Windows, download the [one-click installer](https://github.com/Flying1303/-dsh-deepseek-theme/releases/download/v1.0/DeepSeek-Harness-Theme-v1.0-Windows-Installer.zip), extract it, and double-click `Install-Theme.cmd`. Follow the tool's prompts, then open Harness to use the theme.
+
+## Option 2 — Manual installation
+
+### Official desktop client
 
 1. Download [dsh-client-ui-deepseek-bg-1.0.0.tgz](./dsh-client-ui-deepseek-bg-1.0.0.tgz). Keep the archive intact.
 2. Open Harness and go to **Plugins → Add plugin**. Paste the absolute path to the downloaded file.
@@ -40,7 +46,7 @@ Launch Harness Desktop once to initialize its profile, then quit it completely. 
 
 Reopen DeepSeek Harness after installation.
 
-## Install on Harness Web
+### Install on Harness Web
 
 Use **Plugins → Add plugin** with the absolute archive path on the machine running the Web host. You can also install it using the host's CLI.
 

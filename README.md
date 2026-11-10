@@ -15,9 +15,15 @@ v1.0 将画布重建延后到窗口尺寸稳定时，减少拖动窗口时闪烁
 - 视觉灵感来自 DeepSeek Harness 的旧版官方启动页。现行[官方产品页](https://www.deepseek.com/harness/)和[启动说明](https://github.com/deepseek-ai/deepseek-harness#run)可供参考。
 - 此仓库提供社区适配版，包含桌面端支持、浅色主题、会话区居中和缩放重绘修复。原皮肤包的清单标注 MIT。
 
-## 官方桌面端
+**以下两种安装方式任选一种。**
 
-Windows 用户可以下载[一键安装工具](https://github.com/Flying1303/-dsh-deepseek-theme/releases/download/v1.0/DeepSeek-Harness-Theme-v1.0-Windows-Installer.zip)，解压后双击 `Install-Theme.cmd`。
+## 方式一：Windows 一键安装
+
+Windows 用户可以下载[一键安装工具](https://github.com/Flying1303/-dsh-deepseek-theme/releases/download/v1.0/DeepSeek-Harness-Theme-v1.0-Windows-Installer.zip)，解压后双击 `Install-Theme.cmd`。按工具提示完成后，即可打开 Harness 使用皮肤。
+
+## 方式二：手动安装
+
+### 官方桌面端
 
 1. 将 [dsh-client-ui-deepseek-bg-1.0.0.tgz](./dsh-client-ui-deepseek-bg-1.0.0.tgz) 下载到本地。无需解压。
 2. 打开 DeepSeek Harness，进入左侧「插件 → 添加插件」，粘贴该文件的完整路径。
@@ -40,7 +46,7 @@ Windows 用户可以下载[一键安装工具](https://github.com/Flying1303/-ds
 
 安装完成后重新打开 DeepSeek Harness。命令行用的是桌面安装目录自带的 dsh。
 
-## Harness Web
+### Harness Web
 
 在有 Web 插件管理器的版本上，可使用相同的本地包路径安装并启用。若 Web Host 部署在另一台机器上，路径必须在 Host 那台机器上可访问。也可在 Host 上使用该 Web 安装的 CLI：
 
