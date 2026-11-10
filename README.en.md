@@ -12,7 +12,7 @@ Version 1.0 keeps the last rendered background frame while the window is being r
 - **Desktop and dual-theme adaptation** [Flying1303](https://github.com/Flying1303)
 
 - Thanks to Bilibili creator [@爱玩蛛的少年](https://space.bilibili.com/564770445) for sharing the original Web theme. [Original demo and download links](https://www.bilibili.com/video/BV1fVbi63ETW/)
-- The visual design is inspired by the original DeepSeek Harness launch page. See the [current official product page](https://www.deepseek.com/harness/) and the [official Web UI startup guide](https://github.com/deepseek-ai/deepseek-harness#run) for current information.
+- The visual design is inspired by the original DeepSeek Harness launch page. See the [current official product page](https://www.deepseek.com/harness/) and the [startup guide](https://github.com/deepseek-ai/deepseek-harness#run) for current information.
 - This community adaptation adds desktop support, a light theme, conversation-area centering, and the resize fix. The original theme's package manifest declares MIT.
 
 ## Install on DeepSeek Harness Desktop
