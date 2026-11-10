@@ -14,6 +14,9 @@ Release dates use **(UTC+08:00) Beijing, Chongqing, Hong Kong SAR, Urumqi**.
 - Windows 一键安装工具现提供独立的简体中文（-CN）和英文（-EN）ZIP。英文版包含英文安装提示、错误信息和使用说明，两版内置同一个插件。
 - The Windows one-click installer is now available in separate Simplified Chinese (-CN) and English (-EN) ZIPs. The English edition includes localized prompts, errors, and instructions. Both editions bundle the same plugin.
 
+- 更新 DSH 插件详情，补齐原版作者、适配者和 Codex 制作信息。英文一键安装包和英文手动安装包均内置英文详情。
+- Updated the in-app credits for the original author, adaptation, and Codex. The English one-click and manual packages both include English plugin details.
+
 
 ## v1.0 · 2026-11-10
 

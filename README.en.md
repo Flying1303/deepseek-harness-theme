@@ -37,7 +37,7 @@ Use this option with the official Windows desktop client that includes `dsh.cmd`
 ### Installation steps
 
 1. **Initialize Harness**: If this is your first time using DeepSeek Harness, open it, finish the initial setup, and reach the main window to initialize your desktop profile.
-2. **Download and extract**: Download the [English ZIP](https://github.com/Flying1303/deepseek-harness-theme/releases/download/v1.0.1/DeepSeek-Harness-Theme-v1.0.1-Windows-Installer-EN.zip) or the [Simplified Chinese ZIP](https://github.com/Flying1303/deepseek-harness-theme/releases/download/v1.0.1/DeepSeek-Harness-Theme-v1.0.1-Windows-Installer-CN.zip) and choose **Extract All**. Keep the included `.cmd` launcher, `install.ps1`, and `deepseek-harness-theme-1.0.1.tgz` in the same folder.
+2. **Download and extract**: Download the [English ZIP](https://github.com/Flying1303/deepseek-harness-theme/releases/download/v1.0.1/DeepSeek-Harness-Theme-v1.0.1-Windows-Installer-EN.zip) or the [Simplified Chinese ZIP](https://github.com/Flying1303/deepseek-harness-theme/releases/download/v1.0.1/DeepSeek-Harness-Theme-v1.0.1-Windows-Installer-CN.zip) and choose **Extract All**. Keep the included `.cmd` launcher, `install.ps1`, and the matching `.tgz` in the same folder.
 3. **Quit Harness**: If it is running, select **Application → Quit**. If the installer is already waiting for Harness to exit, return to the installer window and press Enter after quitting.
 4. **Run the installer**: Double-click `Install-Theme-EN.cmd` for English or `Install-Theme-CN.cmd` for Simplified Chinese in the extracted folder. The tool verifies the bundled package, locates Harness, and installs the plugin into your desktop profile. If prompted for an installation directory, paste the **folder containing `DeepSeek Harness.exe`** and press Enter.
 5. **Verify the installation**: After installation succeeds, the tool attempts to open Harness. Open it manually if the window does not appear. Under **Plugins**, confirm that `deepseek-harness-theme` is enabled, then choose **Light**, **Dark**, or **System** under **Settings → General → Appearance**.
@@ -51,7 +51,7 @@ Use this option with the official Windows desktop client that includes `dsh.cmd`
 
 ### Official desktop client
 
-1. Download [deepseek-harness-theme-1.0.1.tgz](./deepseek-harness-theme-1.0.1.tgz). Keep the archive intact.
+1. Download the [English TGZ](https://github.com/Flying1303/deepseek-harness-theme/releases/download/v1.0.1/deepseek-harness-theme-1.0.1-EN.tgz) or the [Simplified Chinese TGZ](https://github.com/Flying1303/deepseek-harness-theme/releases/download/v1.0.1/deepseek-harness-theme-1.0.1.tgz). Keep the archive intact.
 2. Open Harness and go to **Plugins → Add plugin**. Paste the absolute path to the downloaded file.
 3. Install it and select **Enable now**. If prompted, quit and reopen Harness.
 4. Choose **Light**, **Dark**, or **System** under **Settings → General → Appearance**.
@@ -67,7 +67,7 @@ Launch Harness Desktop once to initialize its profile, then quit it completely. 
 ```
 
 - Replace `<DEEPSEEK_HARNESS_INSTALL_DIR>` with the folder containing `DeepSeek Harness.exe`. Keep the trailing `\resources\runtime\cli\bin\dsh.cmd`.
-- Replace `<PLUGIN_ARCHIVE_FULL_PATH>` with the full path to your downloaded `deepseek-harness-theme-1.0.1.tgz`.
+- Replace `<PLUGIN_ARCHIVE_FULL_PATH>` with the full path to your downloaded `.tgz`.
 - Remove the angle brackets and keep the single quotes.
 
 Reopen DeepSeek Harness after installation.
@@ -77,7 +77,7 @@ Reopen DeepSeek Harness after installation.
 Use **Plugins → Add plugin** with the absolute archive path on the machine running the Web host. You can also install it using the host's CLI.
 
 ```sh
-dsh plugin --profile web add /absolute/path/deepseek-harness-theme-1.0.1.tgz
+dsh plugin --profile web add /absolute/path/deepseek-harness-theme-1.0.1-EN.tgz
 ```
 
 Restart the Web host and refresh the page.
