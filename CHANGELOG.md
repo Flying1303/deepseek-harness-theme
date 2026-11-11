@@ -4,6 +4,11 @@
 
 Release dates use **(UTC+08:00) Beijing, Chongqing, Hong Kong SAR, Urumqi**.
 
+## v1.0.2 · 2026-11-11
+
+- 提升浅色主题中输入提示、模型选项、侧栏及会话辅助文字的对比度。提高浅色玻璃面板的不透明度，降低背景粒子鲸鱼的亮度干扰。浅色会话在正文和表格后加了渐变遮罩，降低粒子和网格干扰，两侧保留主题背景。
+- Improved contrast for placeholders, model options, sidebar labels, and secondary chat text in light mode. Made light glass panels more opaque and softened the particle whale. Light conversations fade the artwork behind the transcript while keeping it visible at the sides.
+
 ## v1.0.1 · 2026-11-10
 
 - 修复已发送消息气泡四周露出方角的问题。磨砂样式现在直接作用在消息气泡上，沿用 Harness 自带的圆角。
